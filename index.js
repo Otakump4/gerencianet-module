@@ -4,8 +4,8 @@ class GerencianetPayment {
 constructor() {
 console.log('[INFO] Inicializando SDK da Gerencianet...')
 this.gn = new Gerencianet({
-client_id: 'Client_Id_47c5850e4b8c707898f16d713bc7d7253e455533',
-client_secret: 'Client_Secret_43f98bdf7962d4540b4137a6cee90c3ecbdb99ac',
+client_id: 'SEU_CLIENTE_ID',
+client_secret: 'SEU_CLIENTE_SECRET',
 sandbox: true,// Defina como "true" para o ambiente de testes (sandbox)
 })
 console.log('[SUCESSO] SDK inicializado.')
